@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmovi</title>
+    <link rel="stylesheet" href="style_film.css">
+</head>
+<body>
+    <header class="col-12 col-t-12">
+        FILMOVI NA REPERTOARU
+    </header>
+    <div class="main">
+        <ul class="col-12 col-t-12">
+            <li class="col-3 col-t-3"><a href="index.html">Početna strana</a></li>
+            <li class="col-3 col-t-3">Istorijat</li>
+            <li class="col-3 col-t-3"><a href="onama.html">O nama</a></li>
+            <li class="col-3 col-t-3">Bioskopi</li>
+        </ul>
+
+        <h2 class="col-12 col-t-12">Filmovi koji su obeležili ovu godinu</h2>
+        <br>
+        <!-- proba -->
+        <div class="row">
+        <div class="gallery col-3 col-t-3">
+            <img src="slike/avatar.jpg">
+            <img src="slike/barbi.jpeg">
+            <img src="slike/idol.jpg">
+            <img src="slike/openhajmer.jpg">
+        </div>
+        
+        <!-- proba -->
+        <fieldset class="forma col-6 col-t-6">
+            <legend>Glasajte za vaš omiljeni film</legend>
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Ime:</label></td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Pol:</label></td>
+                        <td>
+                            <input type="radio" name="gender">Muški<br>
+                            <input type="radio" name="gender">Ženski<br>
+                            <input type="radio" name="gender" checked>Drugo
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Film:</label></td>
+                        <td>
+                            <select>
+                                <option>Avatar</option>
+                                <option>Barbi</option>
+                                <option>Idol</option>
+                                <option>Openhajmer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" value="potvrdi izbor">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+</div>
+    <footer class="col-12 col-t-12">
+        Marko Bulajić 478
+    </footer>
+</body>
+</html>
