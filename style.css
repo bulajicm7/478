@@ -19,6 +19,8 @@ footer{
     text-align: center;
     background-color: rgb(75, 37, 6);
     color: bisque;
+    bottom: 0px;
+    position: fixed;
 }
 .main{
     height: 605px;
@@ -193,3 +195,54 @@ h4{
     width: 350px;
 }
 /* proba */
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: orange;
+    border:2px solid rgb(141, 93, 39);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+
+.feedback-input:focus {
+    border:2px solid #CC4949;
+    padding: 20px;
+    margin: 10px;
+    }
+    [type="submit"] {
+        width: 100%;
+        background:#CC6666;
+        border-radius:5px;
+        border:0;
+        cursor:pointer;
+        color:white;
+        font-size:24px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition: all 0.3s;
+        margin-top:-4px;
+        font-weight:700;
+      }
+      [type="submit"]:hover {
+        background:coral
+    }
+#posecenost tr td{
+
+    background-color: rgb(207, 207, 178);
+    border: 2px solid rgb(27, 22, 15);
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+}
+.bio{
+    margin-left: 220px;
+}

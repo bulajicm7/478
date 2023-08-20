@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIOSKOP</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="col-12 col-t-12">
+        BIOSKOPI
+    </header>
+    <div class="main">
+        <ul class="col-12 col-t-12">
+            <li class="col-4 col-t-4"><a href="index.html">Početna strana</a></li>
+            <li class="col-4 col-t-4"><a href="onama.html">O nama</a></li>
+            <li class="col-4 col-t-4"><a href="filmovi.html">Filmovi</a></li>
+        </ul>
+        <h2 class="col-12 col-t-12" style="padding-left: 120px;">Ovde se možete glasati za omiljeni bioskop</h2>
+        <h2 class="col-8 col-t-8">Najpopularniji bioskopi u Nišu</h2>
+        <div class="bio col-4 col-t-4">
+          <table id="posecenost">
+            <tr>
+            <td>Ime</td>
+            <td>Kapacitet</td>
+            <td>Lokacija</td>
+            <td>Kontakt</td>
+            </tr>
+            <tr>
+              <td>Cineplexx</td>
+              <td>100 sedišta</td>
+              <td>Bulevar Medijana 21</td>
+              <td>018 300340</td>
+              </tr>
+              <tr>
+                <td>Vilin Grad</td>
+                <td>90 sedišta</td>
+                <td>Obrenovićeva 19</td>
+                <td>018 251520</td>
+                </tr>
+                <tr>
+                  <td>Cine Grand</td>
+                  <td>120 sedišta</td>
+                  <td>Bulevar Nemanjića 11b</td>
+                  <td>018 3200633</td>
+                  </tr>
+          </table>
+        </div>
+
+    <div id="forma  col-3 col-t-3">
+      <form>
+        <table>
+          <tr>
+            <td>
+              <input name="name" id="ime" type="text" class="feedback-input" placeholder="Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <textarea name="text" id="feedback" class="feedback-input" placeholder="Comment"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="SUBMIT" id="button" />
+            </td>
+          </tr>
+        </table>
+    </form>
+  </div>
+  </div>
+    <footer class="col-12 col-t-12">
+        Marko Bulajić 478
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
